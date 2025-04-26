@@ -949,7 +949,7 @@ section {
   object-fit: cover;
   filter: grayscale(20%);
   transition: filter 0.5s;
-  transition: filter 0.5s, transform 0.5s;
+ transform: translateY(20px);
 }
 
 .team-card:hover img {
