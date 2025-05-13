@@ -216,11 +216,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const numeroWhatsApp = "5561981627655"; // seu número com DDI + DDD
 
-    const texto = `Olá, gostaria de entrar em contato!%0A
-*Nome:* ${nome}%0A
-*E-mail:* ${email}%0A
-*Telefone:* ${telefone}%0A
-*Assunto:* ${assunto}%0A
+    const texto = `Olá, gostaria de entrar em contato!
+*Nome:* ${nome}
+*E-mail:* ${email}
+*Telefone:* ${telefone}
+*Assunto:* ${assunto}
 *Mensagem:* ${mensagem}`;
 
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(
